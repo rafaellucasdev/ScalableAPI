@@ -12,5 +12,8 @@
     ],
     "migrations": [
        "src/database/migrations/*.ts"
-    ]
+    ],
+    "cli": {
+        "entitiesDir": "src/database/migrations"
+    }
  }

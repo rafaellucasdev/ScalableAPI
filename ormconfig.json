@@ -5,8 +5,6 @@
     "username": "postgres",
     "password": "89515010",
     "database": "scalable",
-    "synchronize": true,
-    "logging": false,
     "entities": [
        "src/app/models/*.ts"
     ],
@@ -14,6 +12,6 @@
        "src/database/migrations/*.ts"
     ],
     "cli": {
-        "entitiesDir": "src/database/migrations"
+        "migrationsDir": "src/database/migrations"
     }
  }
